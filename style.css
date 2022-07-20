@@ -1,0 +1,152 @@
+/* Default page setting */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 64%;
+}
+
+.logo {
+  display: flex;
+  width: 5%;
+  height: 50%;
+  position: absolute;
+  bottom: 15px;
+  left: -850px;
+}
+
+/* Navigation sections*/
+.nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.nav__item {
+  padding: 0.5rem;
+}
+
+.nav__link {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+/* Content */
+.flex-container {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+}
+
+.heading1 {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: white;
+}
+
+.learnmore-btn {
+  background-color: rgb(255, 60, 0);
+  color: white;
+  padding: 0.7rem;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  border: 0;
+}
+
+/* Footer with images */
+.image-container {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-120%, -50%);
+}
+
+.image-footer {
+  width: 25%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-color: ;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  font-size: 2rem;
+}
+
+/* social media */
+.socialm-tw {
+  display: flex;
+  width: 2rem;
+  position: absolute;
+  left: 45%;
+  padding: 0.5rem;
+}
+
+.socialm-fb {
+  display: flex;
+  width: 2rem;
+  position: absolute;
+  left: 47%;
+  padding: 0.5rem;
+  margin-bottom: 2%;
+}
+
+.socialmediatinstagram {
+  display: flex;
+  width: 0.8rem;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-top: 0.8%;
+}
+
+.footer-title {
+  display: ;
+}
+.line {
+  width: 70%;
+  height: 5%;
+  border: 5%;
+  position: relative;
+  left: 12%;
+}
+
+.trademark {
+  display: flex;
+  position: absolute;
+  left: 45%;
+  margin-top: 4%;
+  font-size: 0.5rem;
+}

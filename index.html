@@ -1,64 +1,103 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Karma</title>
-      <link href="kstyle.css" rel="stylesheet" type="text/css">
-      <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
-    
-  </head>
-  <body>
-    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Karma</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+          
+          
+     </head>
+    <body>
+      
       <!-- Add your HTML markup here -->
       <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
       <!-- All the images you need are in the 'img' folder -->
-  <header class>
+  <header class="header">
     <main>
-    
- </section>
-    <img class="karma-logo" src="../HTML-CSS-Module-Project/img/karma-logo.svg" alt="" width="2%" height="2%"/>
-      <nav class="navbar">
-    <ul class="nav-menu">
-  <li><a href="#">Meet Karma</a></li>
-  <li><a href="#">How it works</a></li>
-  <li><a href="#">store</a></li>
-  <li><a href="#">blog</a></li>
-  <li><a href="#">help</a></li>
-  <li><a href="#">Login</a></li>
+    <img class="logo" src="img/karma-logo.svg" alt="" width="" height=""/>
+ <nav>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Meet Karma</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">How it works</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Store</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Blog</a>
+          </li>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Help</a>
+          </li>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">login</a>
+          </li>
+        </ul>
+      </nav>
+  
+    </header>
 
-</nav>
-    </ul>
-
-      <section>
-    <div class="container">
-  <div><h1>Introducting Karma</h1></div>
-  <div><h2>Bringing Wifi with you, everywhere you go.</h2> </div>
-  <div>LearnMore </div>
-      </div>
-    </section>
+    <div class="flex-container">
+         <div class="row">
+             <div class="banner">
+              <img class="image" src="img/first-background.jpg" alt="background-image" width="" height=""/>
+                 <h1 class="heading1">Introducting Karma</h1>
+                <h3 class="heading">Bringing Wifi with you, everywhere you go</h3>
+                    <button class="learnmore-btn">Learn More</button>
+             </div>
+          </div>
+          
+        </div>
+        <section>
       <footer>
-        <div>
-      <img src="../HTML-CSS-Module-Project/img/icon-devices.svg" class="image-container" alt="internet for all device"/>
-      <p>Internet for all devices</p>
+        <h2 class="footer-title">Everyone need a little Karma</h2>
+        <div class="image-container">
+      <img class="image-footer" src="../HTML-CSS-Module-Project/img/icon-devices.svg"   width="7%" height="7%" alt="internet for all device"/>
+      <p class="description">Internet for all devices</p>
         </div>
 
-    <div>
-      <img src="../HTML-CSS-Module-Project/img/icon-coffee.svg" class="image-container" alt="Boost your productivity"/>
-      <p>Boost your productivity</p>
+    <div class="image-container">
+      <span class="helper"></span>
+      <img class="image-footer" src="../HTML-CSS-Module-Project/img/icon-coffee.svg" width="7%" height="7%" alt="Boost your productivity"/>
+      
+      <p class="description">Boost your productivity</p>
       </div>
 
-      <div>
-      <img src="../HTML-CSS-Module-Project/img/icon-refill.svg" class="image-container" alt="Pay as You Go"/>
-      <p>Pay as You Go</p>
+      <div class="image-container">
+      <img class="image-footer" src="../HTML-CSS-Module-Project/img/icon-refill.svg"  width="7%" height="7%" alt="Pay as You Go"/>
+      <p class="description">Pay as You Go</p>
       </div>
-      
-      </footer>
-      
-      </main>
+      </section>
+
+     </footer>
+        </main>
+        <section>
+           <hr class="line">
+          <div class="footer-title">Join us on</div>
+         
+          <button>
+            <img src="img/twitter-icon.svg" alt="" class="socialm-tw" width="20%" height=""/>
+          </button>
+          <button>
+           <img src="img/facebook-icon.svg" alt="" class="socialm-fb" width="20%" height=""/>
+          </button>
+          <button>
+            <img src="img/instagram-icon.svg" alt="" class="socialmediatinstagram" width="2%" height="" />
+            
+          </button>
+         
+        </section>
+         <etc class="trademark">&copy; Karma mobility Inc</etc>
     </body>
   
   </html>
